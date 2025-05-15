@@ -483,7 +483,7 @@ h2 {
   /* appear right below nav */
   left: 0;
   width: 100%;
-  background-color: rgba(196, 182, 199, 0.95);
+  background-color: rgba(255, 255, 255, 0.5);
   /* same transparent bg */
   z-index: 999;
   border-radius: 0 0 12px 12px;
@@ -497,6 +497,6 @@ h2 {
   }
 
   .navbar-custom.expanded {
-    background-color: #7a737c;
+    background-color: rgba(255, 255, 255, 0.5);
   }
 }
