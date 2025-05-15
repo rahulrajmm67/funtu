@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Carousel</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- SwiperJS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <style>
+    body {
+      background: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    /* Reviews Section */
+    .review-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s, opacity 0.4s;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      opacity: 0.5;
+      transform: scale(0.9);
+      transition: all 0.4s ease;
+    }
+
+    .swiper-slide-active {
+      opacity: 1 !important;
+      transform: scale(1.05) !important;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #b65fcf;
+    }
+
+    /* Install Section */
+    .install-step {
+      background: #b98d47;
+      color: white;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      height: 100%;
+    }
+
+    .install-step img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .install-step h6 {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .install-step p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Reviews Section -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-5">User Reviews</h2>
+      <div class="swiper reviews-swiper">
+        <div class="swiper-wrapper">
+          <!-- Review Slides -->
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Name</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>I love spending my free time on Funto App. It is an excellent platform to play games and win money! 🚀</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/76.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Manav A.</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>I earned ₹10000 from this game. I quickly withdrew the winnings to my bank account. It is safe & easy to use.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/77.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Name</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>I love spending my free time on Funto App. It is an excellent platform to play games and win money! 🚀</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/78.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Amit K.</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>Fast payout, fun gameplay. Highly recommended! 👍</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/79.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Saurabh</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>This app is totally worth it. Winning and playing are both fun!</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination mt-4"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- How to Install Section -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-5">How to Install Funto App</h2>
+      <div class="swiper install-swiper">
+        <div class="swiper-wrapper">
+          <!-- Step 1 -->
+          <div class="swiper-slide">
+            <div class="install-step">
+              <h6>Step 1</h6>
+              <p>Click "Download" Button to continue.</p>
+              <img src="your-local-or-online-path/step1.png" alt="Step 1">
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="swiper-slide">
+            <div class="install-step">
+              <h6>Step 2</h6>
+              <p>Click on "Download Anyway" to start downloading.</p>
+              <img src="your-local-or-online-path/step2.png" alt="Step 2">
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="swiper-slide">
+            <div class="install-step">
+              <h6>Step 3</h6>
+              <p>Turn on "Allow Apps" from this source.</p>
+              <img src="your-local-or-online-path/step3.png" alt="Step 3">
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="swiper-slide">
+            <div class="install-step">
+              <h6>Step 4</h6>
+              <p>Click on "Install" to play games & earn real cash.</p>
+              <img src="your-local-or-online-path/step4.png" alt="Step 4">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination mt-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script>
+    // Reviews Carousel
+    new Swiper(".reviews-swiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".reviews-swiper .swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 3,
+          centeredSlides: true,
+        }
+      }
+    });
+
+    // Install Steps Carousel
+    new Swiper(".install-swiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".install-swiper .swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 4,
+          autoplay: false,
+          loop: false,
+        }
+      }
+    });
+  </script>
+</body>
+</html>

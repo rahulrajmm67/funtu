@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Funto</title>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="description" content="Play AAA-rated games, win real cash rewards, and enjoy instant withdrawals with Funto – India's fastest growing gaming platform.">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- SwiperJS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-custom">
+    <div class="header-container">
+      <div class="mobile-header w-100 d-lg-none">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/logo.svg" alt="Logo" />
+        </a>
+        <div class="d-flex align-items-center gap-2">
+          <div>
+            <span class="rating">4.9</span><span class="rating-muted">/5</span>
+          </div>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+        </div>
+      </div>
+
+      <!-- Desktop Header -->
+      <div class="desktop-nav d-none d-lg-flex w-100 justify-content-between">
+        <a class="navbar-brand" href="#">
+                      <img src="./assets/logo.svg" alt="Logo" />
+        </a>
+        <ul class="nav gap-3">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">How to Play</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Lucky Spin</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Refer & Earn</a></li>
+        </ul>
+        <a href="#" class="download-btn">Download</a>
+      </div>
+
+      <!-- Collapsible mobile nav -->
+      <div class="collapse navbar-collapse w-100" id="navbarContent">
+        <ul class="nav flex-column mt-2">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">How to Play</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Lucky Spin</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Refer & Earn</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div style="width: 100%; background: linear-gradient(0deg, #7E1057 0%, #B01F7D 32%, #711C53 79%, #3E092B 100%); padding: 40px 0;">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Carousel Column -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div id="promoCarousel" class="carousel slide" data-bs-ride="carousel">
+          
+
+          <!-- Slides -->
+          <div class="carousel-inner text-center">
+  <div class="carousel-item active">
+    <img src="./assets/image1 scroll.png" class="d-block w-100" alt="Play Ludo Win Cash" style="height: 350px; object-fit: cover;" />
+    <a href="#download" class="btn btn-success mt-3" style="background: #00C853; border: none; padding: 10px 20px; font-weight: bold;">
+      DOWNLOAD & GET ₹100
+    </a>
+  </div>
+  <div class="carousel-item">
+    <img src="./assets/image 2 scroll.png" class="d-block w-100" alt="Daily Winning & Refer" style="height: 350px; object-fit: cover;" />
+    <a href="#download" class="btn btn-success mt-3" style="background: #00C853; border: none; padding: 10px 20px; font-weight: bold;">
+      DOWNLOAD & GET ₹100
+    </a>
+  </div>
+  <div class="carousel-item">
+    <img src="./assets/image 3 scroll.png" class="d-block w-100" alt="Daily Winning & Refer" style="height: 350px; object-fit: cover;" />
+    <a href="#download" class="btn btn-success mt-3" style="background: #00C853; border: none; padding: 10px 20px; font-weight: bold;">
+      DOWNLOAD & GET ₹100
+    </a>
+  </div>
+</div>
+
+
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Fixed Image Column (Hidden on Mobile) -->
+      <div class="col-md-6 text-center d-none d-md-block">
+        <img src="./assets/player promote image.png" alt="Promo Features" class="img-fluid" />
+      </div>
+    </div>
+
+    <!-- Bottom Icon Row -->
+<div class="row justify-content-center text-center mt-4">
+  <div class="col-4 col-md-2">
+    <img src="/mnt/data/717192cf-738d-4000-91cb-20b0ad3aeb77.png" alt="Daily Winning" style="max-height: 40px;" class="mb-2" />
+    <div style="color: #FFD700; font-weight: bold;">₹1 CR+</div>
+    <div style="color: #fff;">Daily Winning</div>
+  </div>
+  <div class="col-4 col-md-2">
+    <img src="/mnt/data/717192cf-738d-4000-91cb-20b0ad3aeb77.png" alt="Instant Withdrawals" style="max-height: 40px;" class="mb-2" />
+    <div style="color: #FFD700; font-weight: bold;">Instant</div>
+    <div style="color: #fff;">Withdrawals</div>
+  </div>
+  <div class="col-4 col-md-2">
+    <img src="/mnt/data/717192cf-738d-4000-91cb-20b0ad3aeb77.png" alt="Real Players" style="max-height: 40px;" class="mb-2" />
+    <div style="color: #FFD700; font-weight: bold;">10 Lakh+</div>
+    <div style="color: #fff;">Real Players</div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<!-- Instant Withdrawal Section -->
+<div class="container text-center my-5 position-relative">
+  <!-- Divider lines for desktop -->
+  <div class="divider-container d-none d-lg-block">
+    <div class="line-divider left"></div>
+    <div class="line-divider right"></div>
+  </div>
+
+  <!-- Heading -->
+  <h4 class="withdrawal-heading mb-4">Instant Withdrawal</h4>
+
+  <!-- Payment Icons -->
+  <div class="d-flex justify-content-center flex-wrap gap-4 withdrawal-icons">
+    <div class="withdrawal-item">
+      <div class="icon-circle">
+        <img src="./assets/paytm.png" alt="Paytm" />
+      </div>
+      <div class="icon-label">Paytm</div>
+    </div>
+    <div class="withdrawal-item">
+      <div class="icon-circle">
+        <img src="./assets/Google_Pay_2018_icon.svg" alt="Google Pay" />
+      </div>
+      <div class="icon-label">Google Pay</div>
+    </div>
+    <div class="withdrawal-item">
+      <div class="icon-circle">
+        <img src="./assets/phonepe.svg" alt="PhonePe" />
+      </div>
+      <div class="icon-label">PhonePe</div>
+    </div>
+    <div class="withdrawal-item">
+      <div class="icon-circle">
+        <img src="./assets/Bank.png" alt="Bank" />
+      </div>
+      <div class="icon-label">Bank</div>
+    </div>
+  </div>
+</div>
+
+<!-- 100% Safe Section -->
+<div class="container my-3">
+  <div class="d-flex justify-content-center">
+    <div class="safe-banner w-100 position-relative text-white rounded-3 overflow-hidden px-3" style="max-width: 350px; height: 75px; background: linear-gradient(90deg, #139830 0%, #075E3A 100%);">
+      
+      <!-- Decorative Circles (smaller and partially hidden) -->
+      <div class="safe-circle bg-success opacity-25 position-absolute rounded-circle" style="width: 100px; height: 100px; top: -50px; left: 70%;"></div>
+      <div class="safe-border-circle position-absolute rounded-circle" style="width: 110px; height: 110px; top: -55px; left: 65%; border: 2px solid rgba(8, 44, 17, 0.2); opacity: 0.4;"></div>
+
+      <!-- Content -->
+      <div class="d-flex align-items-center justify-content-between h-100 w-100">
+        <div class="safe-text" style="max-width: 60%;">
+          <div class="fw-bold" style="color: #FFE44B; font-size: 1rem; line-height: 1; white-space: nowrap;">100% Safe</div>
+          <div style="color: rgba(255, 255, 255, 0.8); font-size: 0.75rem; line-height: 1; white-space: nowrap;">Cash Withdraws & Deposit</div>
+        </div>
+        <div class="safe-image">
+          <img src="./assets/shield (1) 1.png" alt="Safe Shield" style="max-width: 50px; max-height: 50px;" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cash Game Reviews Section -->
+<div class="container text-center my-5" style="max-width: 350px;">
+  <!-- Heading -->
+  <div class="mb-3 d-flex justify-content-center align-items-center gap-2">
+    <img src="./assets/playstore icon.png" alt="Play Store" style="width: 24px; height: 24px;">
+    <h5 class="mb-0 fw-bold">Cash Game Reviews</h5>
+  </div>
+
+  <!-- Rating & Bars -->
+  <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
+    <!-- Rating Value -->
+    <div class="text-start" style="min-width: 90px;">
+      <div style="font-size: 4rem; font-weight: bold; line-height: 1;">4.9</div>
+      <div style="font-size: 1rem;">out of 5</div>
+    </div>
+
+    <!-- Rating Bars -->
+    <div style="min-width: 200px; max-width: 300px;">
+      <div class="d-flex align-items-center mb-1">
+        <div class="me-2" style="width: 15px;">5</div>
+        <div class="flex-grow-1 bg-light rounded-pill">
+          <div style="width: 95%; height: 8px; background-color: #2ecc71;" class="rounded-pill"></div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center mb-1">
+        <div class="me-2" style="width: 15px;">4</div>
+        <div class="flex-grow-1 bg-light rounded-pill">
+          <div style="width: 70%; height: 8px; background-color: #2ecc71;" class="rounded-pill"></div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center mb-1">
+        <div class="me-2" style="width: 15px;">3</div>
+        <div class="flex-grow-1 bg-light rounded-pill">
+          <div style="width: 20%; height: 8px; background-color: #2ecc71;" class="rounded-pill"></div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center mb-1">
+        <div class="me-2" style="width: 15px;">2</div>
+        <div class="flex-grow-1 bg-light rounded-pill">
+          <div style="width: 5%; height: 8px; background-color: #2ecc71;" class="rounded-pill"></div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="me-2" style="width: 15px;">1</div>
+        <div class="flex-grow-1 bg-light rounded-pill">
+          <div style="width: 3%; height: 8px; background-color: #2ecc71;" class="rounded-pill"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Reviews Section -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-5">User Reviews</h2>
+      <div class="swiper reviews-swiper">
+        <div class="swiper-wrapper">
+          <!-- Review Slides -->
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Name</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>I love spending my free time on Funto App. It is an excellent platform to play games and win money! 🚀</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/76.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Manav A.</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>I earned ₹10000 from this game. I quickly withdrew the winnings to my bank account. It is safe & easy to use.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/77.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Name</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>I love spending my free time on Funto App. It is an excellent platform to play games and win money! 🚀</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/78.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Amit K.</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>Fast payout, fun gameplay. Highly recommended! 👍</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <img src="https://randomuser.me/api/portraits/men/79.jpg" class="rounded-circle mb-2" width="50">
+              <h5 class="fw-bold">Saurabh</h5>
+              <p class="text-muted small">Mohali, Punjab</p>
+              <p>This app is totally worth it. Winning and playing are both fun!</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination mt-4"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- How to Install Section -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-5">How to Install Funto App</h2>
+      <div class="swiper install-swiper">
+        <div class="swiper-wrapper">
+          <!-- Step 1 -->
+          <div class="swiper-slide">
+            <div class="install-step">
+              <h6>Step 1</h6>
+              <p>Click "Download" Button to continue.</p>
+              <img src="your-local-or-online-path/step1.png" alt="Step 1">
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="swiper-slide">
+            <div class="install-step">
+              <h6>Step 2</h6>
+              <p>Click on "Download Anyway" to start downloading.</p>
+              <img src="your-local-or-online-path/step2.png" alt="Step 2">
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="swiper-slide">
+            <div class="install-step">
+              <h6>Step 3</h6>
+              <p>Turn on "Allow Apps" from this source.</p>
+              <img src="your-local-or-online-path/step3.png" alt="Step 3">
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="swiper-slide">
+            <div class="install-step">
+              <h6>Step 4</h6>
+              <p>Click on "Install" to play games & earn real cash.</p>
+              <img src="your-local-or-online-path/step4.png" alt="Step 4">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination mt-4"></div>
+      </div>
+    </div>
+  </section>
+
+
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-intro">
+        <h1 class="footer-logo">
+            <img src="./assets/logo.svg" alt="Logo" />
+        </h1>
+        <p class="footer-description">
+          At Funto, skill meets reward. Compete in AAA-rated games against other players and turn your gaming prowess into real cash prizes.
+        </p>
+        <div class="made-with-love">
+          <span>Made with Love </span><span>💖</span>
+        </div>
+      </div>
+
+      <!-- Divider 1: Only visible on mobile -->
+      <hr class="footer-divider only-mobile" />
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3 class="footer-heading">Funto</h3>
+          <ul>
+            <li><a href="#">How to Play?</a></li>
+            <li><a href="#">Refer & Earn</a></li>
+            <li><a href="#">Lucky Spin</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-heading">Help</h3>
+          <ul>
+            <li><a href="#">Customer Support</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Responsible Gaming</a></li>
+            <li><a href="#">FAQ’s</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider 2: Always visible -->
+    <hr class="footer-divider" />
+
+<div class="footer-copy-container">
+  <div class="footer-copy-left">© <span id="copyright-year"></span> Tetrafolia Skill Games Private Limited.</div>
+  <div class="footer-copy-right">All Rights Reserved.</div>
+</div>
+
+</footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const navbarCollapse = document.getElementById("navbarContent");
+    const navLinks = navbarCollapse.querySelectorAll(".nav-link");
+
+    // Close navbar on link click (bootstrap way)
+    navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        const collapseInstance = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (collapseInstance) {
+          collapseInstance.hide();
+        }
+      });
+    });
+
+    // Close navbar when clicking outside of it
+    document.addEventListener("click", function (event) {
+      const isClickInsideNavbar = navbarCollapse.contains(event.target);
+      const isToggler = event.target.closest('.navbar-toggler');
+
+      if (!isClickInsideNavbar && !isToggler && navbarCollapse.classList.contains('show')) {
+        const collapseInstance = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (collapseInstance) {
+          collapseInstance.hide();
+        }
+      }
+    });
+  });
+</script>
+
+  <script>
+    // Reviews Carousel
+    new Swiper(".reviews-swiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".reviews-swiper .swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 3,
+          centeredSlides: true,
+        }
+      }
+    });
+
+    // Install Steps Carousel
+    new Swiper(".install-swiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".install-swiper .swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 4,
+          autoplay: false,
+          loop: false,
+        }
+      }
+    });
+  </script>
+
+<script>
+  document.getElementById('copyright-year').textContent = new Date().getFullYear();
+</script>
+
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      centeredSlides: true,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 3,
+        },
+      },
+    });
+  </script>
+
+</body>
+</html>
