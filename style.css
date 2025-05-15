@@ -500,3 +500,31 @@ h2 {
     background-color: rgba(255, 255, 255, 0.5);
   }
 }
+
+/* Sticky on mobile only */
+.sticky-download-btn {
+  display: none;
+}
+
+.download-cta {
+  border: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  border-radius: 0;
+}
+
+/* Show and stick on small screens */
+@media (max-width: 768px) {
+  .sticky-download-btn {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    text-align: center;
+  }
+}
