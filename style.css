@@ -460,3 +460,43 @@ h2 {
 .install-step p {
   font-size: 14px;
 }
+
+
+/* Solid default nav background */
+.navbar-custom {
+  background-color: #3d004d;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+  position: relative;
+}
+
+/* When expanded: transparent overlay menu */
+.navbar-custom.expanded {
+  background-color: rgba(61, 0, 77, 0.95);
+  /* semi-transparent */
+}
+
+/* Collapse content overlays next section */
+#navbarContent {
+  position: absolute;
+  top: 100%;
+  /* appear right below nav */
+  left: 0;
+  width: 100%;
+  background-color: rgba(196, 182, 199, 0.95);
+  /* same transparent bg */
+  z-index: 999;
+  border-radius: 0 0 12px 12px;
+}
+
+/* Fix content overlap for desktop */
+@media (min-width: 992px) {
+  #navbarContent {
+    position: static;
+    background-color: transparent;
+  }
+
+  .navbar-custom.expanded {
+    background-color: #7a737c;
+  }
+}
