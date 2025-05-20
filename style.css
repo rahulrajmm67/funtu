@@ -33,12 +33,11 @@
 }
 
 .icon-circle img {
-  max-width: 36px;
-  max-height: 36px;
+  max-width: 64px;
+  max-height: 64px;
 }
 
 .icon-label {
-  margin-top: 8px;
   color: #717680;
   font-size: 12px;
   font-family: 'Noto Sans', sans-serif;
